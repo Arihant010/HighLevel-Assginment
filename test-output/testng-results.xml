@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-21T21:22:11 IST" name="Suite" finished-at="2023-12-21T21:24:03 IST" duration-ms="112040">
+    <groups>
+    </groups>
+    <test started-at="2023-12-21T21:22:11 IST" name="Test" finished-at="2023-12-21T21:24:03 IST" duration-ms="112040">
+      <class name="arihantHighlevelInterview.Tests.scheduleTests">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:arihantHighlevelInterview.Tests.scheduleTests@2f953efd]" started-at="2023-12-21T21:22:11 IST" name="launchApplication" finished-at="2023-12-21T21:22:38 IST" duration-ms="26739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="scheduleMeeting(java.util.HashMap)[pri:0, instance:arihantHighlevelInterview.Tests.scheduleTests@2f953efd]" started-at="2023-12-21T21:22:38 IST" name="scheduleMeeting" data-provider="getData" finished-at="2023-12-21T21:23:33 IST" duration-ms="54505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{date=2023-12-22, calendarName=Engineering Mettings, lName=Singla, fName=Saloni, phoneNumber=09759348527, timeSlot=08:30 PM, timeZone=GMT+05:30 Asia/Kolkata (GMT+5:30), userEmail=singlasaloni@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scheduleMeeting -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:arihantHighlevelInterview.Tests.scheduleTests@2f953efd]" started-at="2023-12-21T21:23:33 IST" name="tearDown" finished-at="2023-12-21T21:23:33 IST" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:arihantHighlevelInterview.Tests.scheduleTests@2f953efd]" started-at="2023-12-21T21:23:33 IST" name="launchApplication" finished-at="2023-12-21T21:23:43 IST" duration-ms="10041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="priorityCheck()[pri:0, instance:arihantHighlevelInterview.Tests.scheduleTests@2f953efd]" started-at="2023-12-21T21:23:43 IST" name="priorityCheck" finished-at="2023-12-21T21:24:03 IST" depends-on-methods="arihantHighlevelInterview.Tests.scheduleTests.scheduleMeeting" duration-ms="19768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- priorityCheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:arihantHighlevelInterview.Tests.scheduleTests@2f953efd]" started-at="2023-12-21T21:24:03 IST" name="tearDown" finished-at="2023-12-21T21:24:03 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- arihantHighlevelInterview.Tests.scheduleTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
